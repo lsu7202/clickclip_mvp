@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #222; }
+button { cursor: pointer; }
+
+/* 1단계 대본 입력 */
+.script-step { height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; }
+.script-step textarea { width: 40vw; height: 60vh; padding: 16px; font-size: 15px; }
+.script-step .continue { align-self: flex-end; margin-right: 30vw; padding: 8px 20px; }
+
+/* 2단계 3컬럼 */
+.editor { display: grid; grid-template-columns: 3fr 4fr 3fr; height: 100vh; }
+.col { overflow-y: auto; padding: 12px; border-right: 1px solid #eee; }
+.preview { background: #7ed7cd; }
+
+/* 장면 리스트 */
+.scene-row { display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #f0f0f0; position: relative; }
+.scene-thumb { width: 72px; height: 96px; flex: 0 0 auto; border: 1px solid #ccc; object-fit: cover; background: #fafafa; }
+.scene-body { flex: 1; }
+.subtitle-line { display: flex; gap: 6px; align-items: center; margin: 2px 0; }
+.subtitle-line input { flex: 1; }
+.scene-actions { display: flex; justify-content: space-between; margin-top: 16px; }
+
+/* 에셋 패널 */
+.tabs { display: flex; }
+.tabs button { flex: 1; padding: 8px; border: 1px solid #ddd; background: #fff; }
+.tabs button.active { background: #7ed7cd; }
+.asset-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 10px; }
+.asset-grid img { width: 100%; cursor: pointer; border: 1px solid #eee; }
+.prompt-item { display: block; width: 100%; text-align: left; margin: 6px 0; padding: 8px; background: #d8f3ee; border: none; border-radius: 4px; }
+.searchbar { display: flex; gap: 6px; margin-top: 8px; }
+.searchbar input { flex: 1; }

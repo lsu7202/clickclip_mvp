@@ -1,0 +1,15 @@
+# env (Docker compose env_file) — 형식만 .env.example로 공유
+.env
+**/.env
+!**/.env.example
+
+# deps / build
+node_modules/
+**/node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+
+# runtime workspace (다운로드 에셋/TTS/export 산출물)
+workspace/

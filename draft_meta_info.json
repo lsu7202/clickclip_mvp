@@ -1,0 +1,586 @@
+{
+    "cloud_draft_cover": true,
+    "cloud_draft_sync": true,
+    "cloud_package_completed_time": "",
+    "draft_cloud_capcut_purchase_info": "",
+    "draft_cloud_last_action_download": false,
+    "draft_cloud_package_type": "",
+    "draft_cloud_purchase_info": "",
+    "draft_cloud_template_id": "",
+    "draft_cloud_tutorial_info": "",
+    "draft_cloud_videocut_purchase_info": "",
+    "draft_cover": "draft_cover.jpg",
+    "draft_deeplink_url": "",
+    "draft_enterprise_info": {
+        "draft_enterprise_extra": "",
+        "draft_enterprise_id": "",
+        "draft_enterprise_name": "",
+        "enterprise_material": []
+    },
+    "draft_fold_path": "/Users/iseung-ug/Movies/CapCut/User Data/Projects/com.lveditor.draft/0615",
+    "draft_id": "625B46EF-F688-4613-8322-3934418CE228",
+    "draft_is_ae_produce": false,
+    "draft_is_ai_packaging_used": false,
+    "draft_is_ai_shorts": false,
+    "draft_is_ai_translate": false,
+    "draft_is_article_video_draft": false,
+    "draft_is_cloud_temp_draft": false,
+    "draft_is_from_deeplink": "false",
+    "draft_is_invisible": false,
+    "draft_is_web_article_video": false,
+    "draft_materials": [
+        {
+            "type": 0,
+            "value": [
+                {
+                    "ai_group_type": "",
+                    "create_time": 1779760834,
+                    "duration": 22850000,
+                    "extra_info": "YTDown_Shorts_Media_r7ZmbVwa0rw_001_1080p.mp4",
+                    "file_Path": "/Users/iseung-ug/Downloads/YTDown_Shorts_Media_r7ZmbVwa0rw_001_1080p.mp4",
+                    "height": 1920,
+                    "id": "c8add42d-b7c3-48bc-9d17-63fbe70dcf2d",
+                    "import_time": 1781522738,
+                    "import_time_ms": 1781522737412180,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "video",
+                    "roughcut_time_range": {
+                        "duration": 22850000,
+                        "start": 0
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 1080
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781841169,
+                    "duration": 33333,
+                    "extra_info": "",
+                    "file_Path": "",
+                    "height": 0,
+                    "id": "cd484075-d92a-4bc9-b45c-d093d2f9e71b",
+                    "import_time": 1781841169,
+                    "import_time_ms": 1781841169999389,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "none",
+                    "roughcut_time_range": {
+                        "duration": 33333,
+                        "start": 0
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 0
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781843986,
+                    "duration": 5930000,
+                    "extra_info": "ElevenLabs_2026-06-19T04_39_37_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "file_Path": "/Users/iseung-ug/Downloads/ElevenLabs_2026-06-19T04_39_37_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "height": 0,
+                    "id": "bae51b7b-bfca-4be1-8f2c-6d6173dfba07",
+                    "import_time": 1781844115,
+                    "import_time_ms": 1781844110769140,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "music",
+                    "roughcut_time_range": {
+                        "duration": 5930000,
+                        "start": 0
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 0
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781844004,
+                    "duration": 8386000,
+                    "extra_info": "ElevenLabs_2026-06-19T04_39_55_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "file_Path": "/Users/iseung-ug/Downloads/ElevenLabs_2026-06-19T04_39_55_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "height": 0,
+                    "id": "8d85b507-d60e-48e1-a6a5-180d0358c2ed",
+                    "import_time": 1781844116,
+                    "import_time_ms": 1781844110770214,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "music",
+                    "roughcut_time_range": {
+                        "duration": 8386000,
+                        "start": 0
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 0
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781844019,
+                    "duration": 5251000,
+                    "extra_info": "ElevenLabs_2026-06-19T04_40_13_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "file_Path": "/Users/iseung-ug/Downloads/ElevenLabs_2026-06-19T04_40_13_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "height": 0,
+                    "id": "c0616e0a-6512-48e7-b781-2d65f82d55f0",
+                    "import_time": 1781844117,
+                    "import_time_ms": 1781844110770571,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "music",
+                    "roughcut_time_range": {
+                        "duration": 5251000,
+                        "start": 0
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 0
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781844042,
+                    "duration": 6165000,
+                    "extra_info": "ElevenLabs_2026-06-19T04_40_35_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "file_Path": "/Users/iseung-ug/Downloads/ElevenLabs_2026-06-19T04_40_35_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "height": 0,
+                    "id": "2f730171-1436-4570-a4a1-8d0887d33658",
+                    "import_time": 1781844118,
+                    "import_time_ms": 1781844110770843,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "music",
+                    "roughcut_time_range": {
+                        "duration": 6165000,
+                        "start": 0
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 0
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781844211,
+                    "duration": 4676000,
+                    "extra_info": "ElevenLabs_2026-06-19T04_43_28_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "file_Path": "/Users/iseung-ug/Downloads/ElevenLabs_2026-06-19T04_43_28_Jessica - Playful, Bright, Warm_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+                    "height": 0,
+                    "id": "a314121f-50ff-47d1-8e6b-9f4e9691d76d",
+                    "import_time": 1781844227,
+                    "import_time_ms": 1781844218593619,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "music",
+                    "roughcut_time_range": {
+                        "duration": 4676000,
+                        "start": 0
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 0
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781844601,
+                    "duration": 5000000,
+                    "extra_info": "Gemini_Generated_Image_3wcnx23wcnx23wcn.png",
+                    "file_Path": "/Users/iseung-ug/Downloads/Gemini_Generated_Image_3wcnx23wcnx23wcn.png",
+                    "height": 1536,
+                    "id": "f7f89889-ef4f-4511-a61e-28fe9d04e97a",
+                    "import_time": 1781844616,
+                    "import_time_ms": 1781844606736570,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "photo",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 2816
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781844707,
+                    "duration": 1200000,
+                    "extra_info": "dune-oil.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/dune-oil.gif",
+                    "height": 176,
+                    "id": "a82781dc-5c35-4f58-a658-08f65199ca16",
+                    "import_time": 1781844842,
+                    "import_time_ms": 1781844830367266,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 220
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781844889,
+                    "duration": 1300000,
+                    "extra_info": "pepe-bonk-bonk.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/pepe-bonk-bonk.gif",
+                    "height": 112,
+                    "id": "9ffc5ee3-5e1d-4f7f-973d-e5355e588457",
+                    "import_time": 1781844917,
+                    "import_time_ms": 1781844904891681,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 112
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845079,
+                    "duration": 2460000,
+                    "extra_info": "the-french-dispatch-adrien-brody.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/the-french-dispatch-adrien-brody.gif",
+                    "height": 464,
+                    "id": "0c2636bb-5492-4fb7-ae1c-4269e0634d99",
+                    "import_time": 1781845104,
+                    "import_time_ms": 1781845090357364,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 638
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845120,
+                    "duration": 650000,
+                    "extra_info": "nouns-nounish.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/nouns-nounish.gif",
+                    "height": 498,
+                    "id": "73a941df-2dc5-40d8-abab-af09f99771f6",
+                    "import_time": 1781845156,
+                    "import_time_ms": 1781845140037998,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 498
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845288,
+                    "duration": 3550000,
+                    "extra_info": "peter-pan.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/peter-pan.gif",
+                    "height": 160,
+                    "id": "f3b75d4d-c9fb-41f5-9f21-df985594c025",
+                    "import_time": 1781845317,
+                    "import_time_ms": 1781845300926466,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 144
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845364,
+                    "duration": 100000,
+                    "extra_info": "dog.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/dog.gif",
+                    "height": 400,
+                    "id": "0e2f0b95-72e0-4cc6-a938-97a9ef5ab9a6",
+                    "import_time": 1781845392,
+                    "import_time_ms": 1781845374033514,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 400
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845414,
+                    "duration": 3000000,
+                    "extra_info": "kim-moo-sung.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/kim-moo-sung.gif",
+                    "height": 250,
+                    "id": "bd3c2270-e670-46f3-9c29-d16bdd4fed3b",
+                    "import_time": 1781845444,
+                    "import_time_ms": 1781845425645834,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 472
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845560,
+                    "duration": 1200000,
+                    "extra_info": "pust-pe-pe-pepe.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/pust-pe-pe-pepe.gif",
+                    "height": 112,
+                    "id": "dd3560b9-c422-42b3-8f53-40d58a954e67",
+                    "import_time": 1781845588,
+                    "import_time_ms": 1781845568846404,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 112
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845769,
+                    "duration": 100000,
+                    "extra_info": "thinking.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/thinking.gif",
+                    "height": 294,
+                    "id": "4fb6efe3-0f31-4bb9-88ac-9267a24cbe40",
+                    "import_time": 1781845799,
+                    "import_time_ms": 1781845778316365,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 220
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781845956,
+                    "duration": 4900000,
+                    "extra_info": "home-alone.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/home-alone.gif",
+                    "height": 476,
+                    "id": "11895881-64bc-43af-b27a-5adab9ed6a0a",
+                    "import_time": 1781845993,
+                    "import_time_ms": 1781845971626089,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 640
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781846044,
+                    "duration": 6000000,
+                    "extra_info": "raiva.gif",
+                    "file_Path": "/Users/iseung-ug/Downloads/raiva.gif",
+                    "height": 306,
+                    "id": "5b4cb489-d2b3-4c85-865c-7e03e291e64e",
+                    "import_time": 1781846075,
+                    "import_time_ms": 1781846052360307,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "gif",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 220
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781846160,
+                    "duration": 5000000,
+                    "extra_info": "Gemini_Generated_Image_ljr3owljr3owljr3.png",
+                    "file_Path": "/Users/iseung-ug/Downloads/Gemini_Generated_Image_ljr3owljr3owljr3.png",
+                    "height": 1536,
+                    "id": "3c408164-f82a-43ea-af4a-fb953f6ed8fa",
+                    "import_time": 1781846201,
+                    "import_time_ms": 1781846177371714,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "photo",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 2816
+                },
+                {
+                    "ai_group_type": "",
+                    "create_time": 1781846247,
+                    "duration": 5000000,
+                    "extra_info": "26251d9b-ab8c-47d5-a7c6-a84ca4b9853e.jpg",
+                    "file_Path": "/Users/iseung-ug/Downloads/26251d9b-ab8c-47d5-a7c6-a84ca4b9853e.jpg",
+                    "height": 1366,
+                    "id": "756ca577-e2f9-43a8-b66e-654cd1813e97",
+                    "import_time": 1781846289,
+                    "import_time_ms": 1781846264498580,
+                    "item_source": 1,
+                    "md5": "",
+                    "metetype": "photo",
+                    "roughcut_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "sub_time_range": {
+                        "duration": -1,
+                        "start": -1
+                    },
+                    "type": 0,
+                    "width": 1024
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "value": []
+        },
+        {
+            "type": 2,
+            "value": []
+        },
+        {
+            "type": 3,
+            "value": []
+        },
+        {
+            "type": 6,
+            "value": []
+        },
+        {
+            "type": 7,
+            "value": []
+        },
+        {
+            "type": 8,
+            "value": []
+        }
+    ],
+    "draft_materials_copied_info": [],
+    "draft_name": "0615",
+    "draft_need_rename_folder": false,
+    "draft_new_version": "",
+    "draft_removable_storage_device": "",
+    "draft_root_path": "/Users/iseung-ug/Movies/CapCut/User Data/Projects/com.lveditor.draft",
+    "draft_segment_extra_info": [],
+    "draft_timeline_materials_size_": 29174490,
+    "draft_type": "",
+    "draft_web_article_video_enter_from": "",
+    "tm_draft_cloud_completed": "",
+    "tm_draft_cloud_entry_id": -1,
+    "tm_draft_cloud_modified": 0,
+    "tm_draft_cloud_parent_entry_id": -1,
+    "tm_draft_cloud_space_id": -1,
+    "tm_draft_cloud_user_id": -1,
+    "tm_draft_create": 1781522716001583,
+    "tm_draft_modified": 1781851448810089,
+    "tm_draft_removed": 0,
+    "tm_duration": 29366666
+}

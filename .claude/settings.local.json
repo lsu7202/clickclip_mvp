@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://ai.google.dev/gemini-api/docs/structured-output.md.txt\")",
+      "WebFetch(domain:elevenlabs.io)",
+      "WebFetch(domain:fal.ai)",
+      "WebSearch",
+      "Bash(curl -sL \"https://ai.google.dev/gemini-api/docs/quickstart.md.txt\")",
+      "Bash(curl -sL \"https://ai.google.dev/gemini-api/docs/models.md.txt\")",
+      "WebFetch(domain:docs.fal.ai)",
+      "WebFetch(domain:googleapis.github.io)"
+    ]
+  }
+}
