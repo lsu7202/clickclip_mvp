@@ -6,6 +6,7 @@ from schemas.scene import Subtitle
 
 class TtsRequest(BaseModel):
     subtitles: list[Subtitle]  # 장면 자막들 (합쳐서 합성, 조각별 타이밍 산출)
+    language: str = "ko"       # ko | ja
 
 
 class SubtitleTiming(BaseModel):

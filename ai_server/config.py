@@ -16,10 +16,11 @@ GEMINI_MODEL = "gemini-2.5-flash"
 # --- Typecast TTS (external_api_spec §4) ---
 TYPECAST_VOICE_ID = os.getenv("TYPECAST_VOICE_ID", "tc_672c5f5ce59fac2a48faeaee")
 TYPECAST_MODEL = os.getenv("TYPECAST_MODEL", "ssfm-v30")
-TYPECAST_LANGUAGE = "kor"
 TYPECAST_OUTPUT_FORMAT = "mp3"
 # 속도(tempo) 환경변수 관리. 0.5~2.0, 기본 1.0
 TTS_SPEED = float(os.getenv("TTS_SPEED", "1.0"))
+# 프론트 언어코드 → Typecast ISO 639-3
+TYPECAST_LANG_MAP = {"ko": "kor", "ja": "jpn"}
 
 # --- fal.ai 나노바나나 (이미지) ---
 FAL_IMAGE_MODEL = "fal-ai/nano-banana"

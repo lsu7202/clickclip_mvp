@@ -19,12 +19,14 @@ const emptyScene = (n) => ({
 
 export const useAppStore = create((set, get) => ({
   step: 'script',
+  language: 'ko', // ko | ja
   scriptText: '',
   scenes: [],
   selectedSceneNumber: null,
   assetPanel: { open: false, tab: 'gif', query: '', results: [], prompts: [] },
 
   setScriptText: (scriptText) => set({ scriptText }),
+  setLanguage: (language) => set({ language }),
 
   // 1단계 → 2단계: split 결과 로드 (asset/tts=null 부착)
   loadScenes: (scenes) =>
@@ -68,6 +70,24 @@ export const useAppStore = create((set, get) => ({
           : s,
       ),
     })),
+
+  // 번역 갱신 (subtitle_number 기준으로 translation 주입)
+  setSubtitleTranslations: (sceneNumber, translations) =>
+    set((st) => {
+      const byNum = new Map(translations.map((t) => [t.subtitleNumber, t.translation]));
+      return {
+        scenes: st.scenes.map((s) =>
+          s.sceneNumber === sceneNumber
+            ? {
+                ...s,
+                subtitles: s.subtitles.map((x) =>
+                  byNum.has(x.subtitleNumber) ? { ...x, translation: byNum.get(x.subtitleNumber) } : x,
+                ),
+              }
+            : s,
+        ),
+      };
+    }),
 
   // --- 에셋/TTS 적용 ---
   setSceneAsset: (sceneNumber, asset) =>

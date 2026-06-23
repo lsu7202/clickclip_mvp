@@ -5,13 +5,14 @@ import { generateTts } from '../../api/tts.api';
 
 export default function TtsControls({ scene }) {
   const setSceneTts = useAppStore((s) => s.setSceneTts);
+  const language = useAppStore((s) => s.language);
   const [loading, setLoading] = useState(false);
 
   const onGenerate = async () => {
     if (!scene.subtitles.some((s) => s.text.trim())) return;
     setLoading(true);
     try {
-      setSceneTts(scene.sceneNumber, await generateTts(scene.subtitles));
+      setSceneTts(scene.sceneNumber, await generateTts(scene.subtitles, language));
     } finally {
       setLoading(false);
     }

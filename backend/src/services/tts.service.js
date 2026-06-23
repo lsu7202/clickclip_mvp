@@ -2,8 +2,8 @@
 const aiClient = require('../clients/ai.client');
 const fileStore = require('../storage/fileStore');
 
-async function generate(subtitles) {
-  const { audioBase64, duration, subtitleTimings } = await aiClient.generateTts(subtitles);
+async function generate(subtitles, language) {
+  const { audioBase64, duration, subtitleTimings } = await aiClient.generateTts(subtitles, language);
   const buffer = Buffer.from(audioBase64, 'base64');
   const { ttsId, localPath } = fileStore.saveTts(buffer);
   return { ttsId, localPath, duration, subtitleTimings };

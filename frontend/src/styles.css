@@ -18,6 +18,7 @@ button { cursor: pointer; }
 .scene-body { flex: 1; }
 .subtitle-line { display: flex; gap: 6px; align-items: center; margin: 2px 0; }
 .subtitle-line input { flex: 1; }
+.subtitle-trans { color: #888; font-size: 12px; flex: 1; }
 .scene-actions { display: flex; justify-content: space-between; margin-top: 16px; }
 
 /* 에셋 패널 */

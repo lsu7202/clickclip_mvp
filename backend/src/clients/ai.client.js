@@ -12,19 +12,21 @@ async function postJson(path, payload) {
   return toCamelCaseDeep(data);
 }
 
-const splitScenes = (scriptText) => postJson('/scenes/split', { scriptText });
+const splitScenes = (scriptText, language) => postJson('/scenes/split', { scriptText, language });
 const extractKeywords = (subtitles) => postJson('/scenes/keywords', { subtitles });
+const translateSubtitles = (subtitles) => postJson('/scenes/translate', { subtitles });
 const imagePrompts = (subtitles, sceneDescription) =>
   postJson('/scenes/image-prompts', { subtitles, sceneDescription });
 const generateImage = (prompt) => postJson('/images/generate', { prompt });
 const generateVideo = (prompt) => postJson('/videos/generate', { prompt });
 
 /** TTS: Typecast 결과 JSON (audio base64 + duration + 자막 타이밍) */
-const generateTts = (subtitles) => postJson('/tts', { subtitles });
+const generateTts = (subtitles, language) => postJson('/tts', { subtitles, language });
 
 module.exports = {
   splitScenes,
   extractKeywords,
+  translateSubtitles,
   imagePrompts,
   generateImage,
   generateVideo,

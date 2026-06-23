@@ -3,7 +3,7 @@ const ttsService = require('../services/tts.service');
 
 async function generate(req, res, next) {
   try {
-    res.json(await ttsService.generate(req.body.subtitles));
+    res.json(await ttsService.generate(req.body.subtitles, req.body.language));
   } catch (e) { next(e); }
 }
 

@@ -1,11 +1,16 @@
 import { useAppStore } from '../../store/appStore';
 import { assetUrl } from '../../api/client';
+import { translateSubtitles } from '../../api/scenes.api';
 import SubtitleLine from './SubtitleLine.jsx';
 import TtsControls from './TtsControls.jsx';
 
 export default function SceneRow({ scene }) {
-  const { selectScene, addSubtitle, deleteScene } = useAppStore();
+  const { selectScene, addSubtitle, deleteScene, language, setSubtitleTranslations } = useAppStore();
   const n = scene.sceneNumber;
+
+  const onTranslate = async () => {
+    setSubtitleTranslations(n, await translateSubtitles(scene.subtitles));
+  };
 
   return (
     <div className="scene-row">
@@ -32,6 +37,9 @@ export default function SceneRow({ scene }) {
           <SubtitleLine key={sub.subtitleNumber} sceneNumber={n} sub={sub} />
         ))}
         <button onClick={() => addSubtitle(n)}>＋ 자막 추가</button>
+        {language !== 'ko' && (
+          <button onClick={onTranslate} title="한국어 번역 새로고침">번역 ↻</button>
+        )}
         <TtsControls scene={scene} />
       </div>
       <button

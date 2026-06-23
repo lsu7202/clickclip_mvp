@@ -1,4 +1,4 @@
-"""Gemini 래퍼 — 분할/키워드/프롬프트. (external_api_spec §3)
+"""Gemini 래퍼 — 분할/키워드/프롬프트/번역. (external_api_spec §3)
 
 SDK: google-genai. structured output(response_schema=Pydantic).
 """
@@ -6,12 +6,13 @@ from google import genai
 from google.genai import types
 
 import config
-from prompts import image_prompts, keywords, split_script
+from prompts import image_prompts, keywords, split_script, translate
 from schemas.scene import (
     ImagePromptsResponse,
     KeywordsResponse,
     ScenesResponse,
     Subtitle,
+    TranslateResponse,
 )
 
 # 클라이언트는 모듈 로드 시 1회 생성 후 재사용 (FastAPI 권장)
@@ -30,8 +31,8 @@ def _generate(prompt: str, schema) -> str:
     return resp.text
 
 
-def split_scenes(script_text: str) -> ScenesResponse:
-    text = _generate(split_script.build(script_text), ScenesResponse)
+def split_scenes(script_text: str, language: str = "ko") -> ScenesResponse:
+    text = _generate(split_script.build(script_text, language), ScenesResponse)
     return ScenesResponse.model_validate_json(text)
 
 
@@ -49,3 +50,9 @@ def suggest_image_prompts(
         image_prompts.build(joined, scene_description), ImagePromptsResponse
     )
     return ImagePromptsResponse.model_validate_json(text)
+
+
+def translate_subtitles(subtitles: list[Subtitle]) -> TranslateResponse:
+    lines = "\n".join(f"{s.subtitle_number}. {s.text}" for s in subtitles)
+    text = _generate(translate.build(lines), TranslateResponse)
+    return TranslateResponse.model_validate_json(text)

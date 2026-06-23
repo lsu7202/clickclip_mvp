@@ -6,6 +6,7 @@ from pydantic import BaseModel
 class Subtitle(BaseModel):
     subtitle_number: int
     text: str
+    translation: str | None = None  # 비한국어일 때 한국어 번역(편집 보조용)
 
 
 class Scene(BaseModel):
@@ -21,6 +22,7 @@ class ScenesResponse(BaseModel):
 
 class SplitRequest(BaseModel):
     script_text: str
+    language: str = "ko"  # ko | ja
 
 
 # --- /scenes/keywords ---
@@ -40,3 +42,17 @@ class ImagePromptsRequest(BaseModel):
 
 class ImagePromptsResponse(BaseModel):
     prompts: list[str]
+
+
+# --- /scenes/translate ---
+class TranslateRequest(BaseModel):
+    subtitles: list[Subtitle]
+
+
+class SubtitleTranslation(BaseModel):
+    subtitle_number: int
+    translation: str
+
+
+class TranslateResponse(BaseModel):
+    translations: list[SubtitleTranslation]

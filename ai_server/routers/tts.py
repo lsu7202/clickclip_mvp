@@ -11,7 +11,7 @@ router = APIRouter(prefix="/tts", tags=["tts"])
 
 @router.post("", response_model=TtsResponse)
 async def generate(req: TtsRequest) -> TtsResponse:
-    r = await typecast_service.generate_tts(req.subtitles)
+    r = await typecast_service.generate_tts(req.subtitles, req.language)
     return TtsResponse(
         audio_base64=base64.b64encode(r["audio_bytes"]).decode(),
         audio_format=r["audio_format"],

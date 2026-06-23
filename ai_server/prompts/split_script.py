@@ -30,5 +30,12 @@ SYSTEM = """너는 숏폼(릴스/쇼츠) 편집 도우미다. 주어진 대본�
 """
 
 
-def build(script_text: str) -> str:
-    return f"{SYSTEM}\n\n[대본]\n{script_text}"
+TRANSLATION_RULE = """
+[번역]
+- 대본 언어가 한국어가 아니다. 각 자막(text)마다 자연스러운 한국어 번역을 `translation`에 채워라.
+- text는 원문 그대로 두고, translation에만 한국어를 넣는다."""
+
+
+def build(script_text: str, language: str = "ko") -> str:
+    extra = "" if language == "ko" else TRANSLATION_RULE
+    return f"{SYSTEM}{extra}\n\n[대본]\n{script_text}"
